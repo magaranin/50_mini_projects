@@ -84,22 +84,23 @@ body {
 
 .form-control label {
     position: absolute;
-    top: 15px;
+    top: -15px;
     left: 0;
 }
 
 .form-control label span {
+    transform: translateY(30px);
     display: inline-block;
     font-size: 18px;
     min-width: 5px;
     transition-duration: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+.form-control:hover input + label span,
 .form-control input:focus + label span,
 .form-control input:valid + label span {
     color: pink;
-    transform: translateY(-30px);
-
+    transform: none;
 }
 
 @media(max-width: 800px) {
