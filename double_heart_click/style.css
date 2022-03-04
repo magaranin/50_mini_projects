@@ -17,6 +17,7 @@ h3 {
 }
 
 small {
+    font-size: 20px;
     display: block;
     margin-bottom: 20px;
     text-align: center;
@@ -27,8 +28,8 @@ small {
 }
 
 .loveMe {
-    height: 440px;
-    width: 300px;
+    height: 640px;
+    width: 500px;
     background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/274786208_1543124152719944_7575841773636775978_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=AiRKS2cj0F4AX8J9hbi&_nc_oc=AQkROzDN_ydNkrSEF3hymypsrWSzQr5aiZHeX4uMc8BjpasWxvgR1JKu6ad4PqYs4UI&_nc_ht=scontent-sea1-1.xx&oh=00_AT_OnG5BzpAMd-O5F56eNOkkHl98RGor8II9cVQ_XXkodQ&oe=622658E8') no-repeat center center/cover;
     margin: auto; /*is going to move it to the middle*/
     cursor: pointer;
