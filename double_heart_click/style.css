@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    margin: 0; 
+}
+
+h3 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+small {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.loveMe {
+    height: 440px;
+    width: 300px;
+    background: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/274786208_1543124152719944_7575841773636775978_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=AiRKS2cj0F4AX8J9hbi&_nc_oc=AQkROzDN_ydNkrSEF3hymypsrWSzQr5aiZHeX4uMc8BjpasWxvgR1JKu6ad4PqYs4UI&_nc_ht=scontent-sea1-1.xx&oh=00_AT_OnG5BzpAMd-O5F56eNOkkHl98RGor8II9cVQ_XXkodQ&oe=622658E8') no-repeat center center/cover;
+    margin: auto; /*is going to move it to the middle*/
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(230, 17, 17, 0.25), 0 10px 10px rgba(233, 14, 14, 0.22);
+    overflow: hidden;
+}
+
+.loveMe .fa-heart {
+    position: absolute;
+    animation: grow 0.6s linear;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+    to {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 0;
+    }
+}
